@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regarys</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kumbh+Sans:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Title -->
+    <div class="first-container">
+        <img src="./Image/console.png" alt="console" class="console">
+        <div class="title">
+            <h1>Im Regarys</h1>
+            <h2>a <span class="programer">pro</span>grammer</h2>
+        </div>
+        <img src="./Image/musical-note.png" alt="note" class="note">
+        <img src="./Image/gamer.png" alt="a gamer" class="gamer">
+    </div>
+
+    <!-- About -->
+    <div class="second-container">
+        <div class="profile">
+            <img src="./Image/1188430.png" alt="Me as Cartoon">
+            <h3>Hello</h3>
+            <p>Im a gamer, musical person, and love creating something like coding.</p>
+            <a href="./about.html" style="margin: 0; padding: 0; text-decoration: none;"><p>More About Me</p></a>
+            <hr>
+
+        </div>
+        <div class="skills">
+            <h3>Skills</h3>
+            <div class="card">
+                <div>
+                    <img src="./Image/gamergif.gif" alt="playing game">
+                    
+                </div>
+                <div>
+                    <h4>Gaming</h4>
+                    <p>First time i know computer because of game and now feels i cant alive without game.</p>
+                </div>
+                <div>
+                    <img src="./Image/music.gif" alt="Hearing Music">
+                </div>
+                <div>
+                    <h4>Music</h4>
+                    <p>Not just hearing music, i love playing music too.</p>
+                </div>
+                <div>
+                    <img src="./Image/code.gif" alt="coding">
+                </div>
+                <div>
+                    <h4>Coding</h4>
+                    <p>I love code cuz its one of my way to make things easier.</p>
+                </div>
+            </div> 
+        </div>
+        <hr>
+    </div>
+
+    <!-- Project -->
+    <div class="project">
+        <h3>Project</h3>
+        <h4>Projects That I Have Worked On</h4>
+        <div class="grid-container">
+            <div class="row">
+                <div class="column">
+                  <h2>Project 1</h2>
+                  <p>Visual Basic Point Of Sales (Bakery)</p>
+                  <a href="./projectPage/project1.html"><img src="./Image/project/project_1.png" alt="project pertama"></a>
+                </div>
+                <div class="column">
+                  <h2>Project 2</h2>
+                  <p>Mobile App Sorting using Cycle Sort</p>
+                  <a href="./projectPage/project2.html"><img src="./Image/project/project_2.png" alt="project kedua"></a>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="column">
+                  <h2>Project 3</h2>
+                  <p>Mobile App Search List using Rest-Api</p>
+                  <a href="./projectPage/project3.html"><img src="./Image/project/project_3.png" alt="Project Ketiga"></a>
+                </div>
+                <div class="column">
+                  <h2>Project 4</h2>
+                  <p>Mobile App CRUD using PHP Native</p>
+                  <a href="./projectPage/project4.html"><img src="./Image/project/project_4.png" alt="Project KeEmpat"></a>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="column">
+                  <h2>Project 5</h2>
+                  <p>Web Service menggunakan django rest-framework</p>
+                  <a href="./projectPage/project5.html"><img src="./Image/project/project_5.png" alt="Project Kelima"></a>
+                </div>
+                <div class="column">
+                  <h2>Project 6</h2>
+                  <p>Membuat website Toko Jerjon</p>
+                  <a href="./projectPage/project6.html"><img src="./Image/project/project_6.png" alt="Project Kenam" style="height: 300px;"></a>
+                </div>
+              </div>
+              
+        </div>
+        <hr>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact">
+        <h3>Get in Touch</h2>
+        <h4>If you have an interest with me.</h3>
+        <p>You have a lot similarity and have a plan to contact me?</p>
+        <a class="btn" href="mailto::yahyaseptian26@gmail.com">Contact Me</a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <a href="https://www.instagram.com/regaryys/">Instagram</a>
+        <a href="https://github.com/Regarys">Github</a>
+        <a href="https://www.youtube.com/channel/UCKJjSljcIfG0v1In7o0rmTw">Youtube</a>
+        <p>&copy; <span id="year"></span> Regarys. All rights reserved.</p>
+    </div>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
